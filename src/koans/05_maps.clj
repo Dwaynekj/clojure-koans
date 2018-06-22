@@ -39,7 +39,6 @@
   (= {1 "January"} (dissoc {1 "January" 2 "February"} 2))
 
   "Often you will need to get the keys, but the order is undependable"
-<<<<<<< HEAD
   (= (list 2006 2010 2014)
      (sort (keys {2006 "Torino" 2010 "Vancouver" 2014 "Sochi"})))
 
